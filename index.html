@@ -9,6 +9,7 @@
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <style>
 body {
     font-family: 'PT Sans', sans-serif;
@@ -195,8 +196,8 @@ body {
 
 <section>
     <div class="container text-contain">
-        <h1 class="unleash">Unleash Your Creativity With</h1>
-        <h2>Modita Art Foundation</h2>
+        <h1 class="unleash" data-aos="slide-right">Unleash Your Creativity With</h1>
+        <h2 data-aos="flip-up">Modita Art Foundation</h2>
     </div>
 </section>
 <script>
@@ -207,6 +208,13 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+</script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      offest: 300,
+      duration: 1000,
+  });
 </script>
      
 </body>
