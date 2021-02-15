@@ -5,11 +5,15 @@
 <title>Moidita2</title>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-<link
+<!-- <link
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+/> -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- CSS only -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+<!-- JavaScript Bundle with Popper -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
 <style>
 body {
     font-family: 'PT Sans', sans-serif;
@@ -147,26 +151,31 @@ body {
     background-position: center;
     background-size: cover;
     color: white;
+    
 }
-    .unleash
-    {
-/*         font-size: 2rem */
-        padding-top: 10%;
-    }
-    .text-contain h2
-    {
-        font-size: 2rem
-            
-    }
-    @media(max-width: 601px)
+
+
+.unleash
+{
+     /* font-size: 2rem;  */
+    padding-top: 10%;
+}
+.scndtxt
+{
+    font-size: 2rem;
+    padding-bottom: 5px;
+
+    
+}
+@media(max-width: 601px)
 {
     .unleash
     {
         padding-top: 15%;
     }
 }
-    
-    @media(min-width: 940px)and (max-width: 5000px)
+
+@media(min-width: 940px)and (max-width: 5000px)
 {
    
     .scndtxt
@@ -235,13 +244,19 @@ body {
 </section>
 
 <section>
-    <div class="container text-contain">
-        <h2 class="unleash" data-aos="slide-right">Unleash Your Creativity With</h2>
+    <div class="container-fluid text-contain">
+        <h2 class="unleash" data-aos="slide-left">Unleash Your Creatvity With</h2>
         <h1 class="scndtxt" data-aos="flip-up">Modita Art Foundation</h1>
-    </div>  
+    </div>
 </section>
-    
-    <section>
+
+
+
+
+
+
+
+<section>
     <div class="container midtext">
         <img src="modita.png" alt="" id="midlogo">
         <h1>MODITA ART FOUNDATION</h1>
@@ -250,8 +265,13 @@ body {
          </div>
     
 </section>
-    
-    
+
+
+
+
+
+
+
 <script>
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
@@ -261,7 +281,7 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
 </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init({
       offest: 300,
