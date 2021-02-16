@@ -162,7 +162,7 @@ body {
 }
 .scndtxt
 {
-    font-size: 3rem;
+    font-size: 2rem;
     padding-bottom: 5px;
 
     
@@ -172,6 +172,10 @@ body {
     .unleash
     {
         padding-top: 15%;
+    }
+    .text-contain
+    {
+        height: max-content;
     }
 }
 
@@ -191,7 +195,7 @@ body {
 .midtext h1 
 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 178%;
     /* display: flex; */
 }
 @media(max-width: 800px)
@@ -199,6 +203,10 @@ body {
     #midlogo
     {
        display: none;
+    }
+    .midtext h1 
+    {
+        text-align: left;
     }
 }
 #midlogo
@@ -209,9 +217,16 @@ body {
 }
 .midp
 {
-    text-align: center;
-    font-size: 2rem;
+    text-align: justify;
+    font-size: 1.5rem;
     color: gray;
+}
+@media(min-width: 601px)and (max-width: 900px)
+{
+    .text-contain
+    {
+        height: 35vh;
+    }
 }
 
 
@@ -246,7 +261,7 @@ body {
 <section>
     <div class="container-fluid text-contain">
         <h2 class="unleash" data-aos="slide-left">Unleash Your Creatvity With</h2>
-        <h1 class="scndtxt"data-aos="flip-up">Modita Art Foundation</h1>
+        <h1 class="scndtxt" data-aos="flip-up">Modita Art Foundation</h1>
     </div>
 </section>
 
