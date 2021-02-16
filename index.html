@@ -10,10 +10,10 @@ rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 /> -->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<!-- CSS only -->
-<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
-<!-- JavaScript Bundle with Popper -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
+  <!-- Compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <style>
 body {
     font-family: 'PT Sans', sans-serif;
@@ -162,7 +162,7 @@ body {
 }
 .scndtxt
 {
-    font-size: 2.5rem;
+    font-size: 5rem;
     padding-bottom: 5px;
 
     
@@ -184,18 +184,22 @@ body {
    
     .scndtxt
     {
-        font-size: 3rem;
+        font-size: 6rem;
     }
     .text-contain
     {
         height: 60vh;
+    }
+    .course
+    {
+        font-size: xx-large;
     }
 } 
 
 .midtext h1 
 {
     text-align: center;
-    font-size: 178%;
+    font-size: 3rem;
     /* display: flex; */
 }
 @media(max-width: 800px)
@@ -207,6 +211,7 @@ body {
     .midtext h1 
     {
         text-align: left;
+        font-size: 2.5rem;
     }
     .unleash
     {
@@ -217,6 +222,8 @@ body {
     {
         padding-bottom: 5%;
     }
+    
+    
 }
 #midlogo
 {
@@ -227,7 +234,7 @@ body {
 .midp
 {
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: gray;
 }
 @media(min-width: 601px)and (max-width: 900px)
@@ -236,8 +243,36 @@ body {
     {
         height: 35vh;
     }
+    .unleash
+    {
+        padding-top: 5%;
+    }
 }
 
+.course
+{
+    text-align: center;
+}
+.call
+{
+    text-align: center;
+    color: grey;
+}
+.btn
+{
+    border-radius: 5px;
+    border-color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/
 
 
 </style>
@@ -247,10 +282,13 @@ body {
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
+      <button class="btn">Apply Online</button>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">Our Services</a>
+    <!-- <a href="#">About</a> -->
     <a href="#">Contact</a>
+    <a href="tel:07002349200"><button class="btn">CALL NOW</button></a>
   </div>
 </div>
  <img src="modita.png" alt="logo" class="responsive-img"> <hr class="hr">
@@ -259,7 +297,7 @@ body {
     <a class="active" href="#home">Home</a>
     <a href="#news">Courses</a>
     <a href="#contact">Our Services</a>
-    <a href="#about">About</a>
+    <!-- <a href="#about">About</a> -->
     <a href="#contact">Contact</a>
   </div>
 
@@ -268,7 +306,7 @@ body {
 </section>
 
 <section>
-    <div class="container-fluid text-contain">
+    <div class="container text-contain">
         <h2 class="unleash" data-aos="slide-left">Unleash Your Creatvity With</h2>
         <h1 class="scndtxt" data-aos="flip-up">Modita Art Foundation</h1>
     </div>
@@ -277,12 +315,27 @@ body {
 <section>
     <div class="container midtext">
         <img src="modita.png" alt="" id="midlogo">
-        <h1>MODITA ART FOUNDATION</h1>
+        <h1>MODITA ART FOUNDATION</h1> 
         <p class="midp">Modita Art Foundation was established in 2010. It is a creative art's platform and a professional organization in Guwahati based on various art & design activities, affiliated under Assam Fine Arts and Crafts Society &trade;. </p>
-    
-         </div>
-    
+    </div>
 </section>
+<br>
+<section>
+    <div class="container">
+        <h1 class="course">Various Courses Offered by Modita Art Foundation</h1>
+        <h4 class="call">For any queries please call +91 7002349200</h4>
+    </div>
+</section>
+<br>
+<section>
+    <h4 class="call">We've Got You Covered</h4>
+    <h2 class="course">Our Services</h2>
+  
+</section>
+
+
+
+
 
 
 
